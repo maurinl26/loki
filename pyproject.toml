@@ -89,3 +89,8 @@ namespaces = false
 
 # Enable SCM versioning
 [tool.setuptools_scm]
+
+[dependency-groups]
+dev = [
+    "ruff",
+]
